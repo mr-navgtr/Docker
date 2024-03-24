@@ -1,0 +1,8 @@
+1.copy the docker file into main directory(app )
+2.then push the app into dockerhub
+#mvn clean package dockerfile:push (ith adikkumbol mvn project build cheyth docker hubil push cheyyum)
+3.then pull into instance from docker hub 
+# docker pull <name>
+4. then run the container 
+#docker run -d -p 8081:8080 --name rosh <image name >
+6. then copy the instance link and paste 
