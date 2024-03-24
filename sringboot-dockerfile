@@ -1,0 +1,4 @@
+FROM openjdk:11
+COPY target/springboot/app.jar /user/app/
+WORKDIR /user/app/
+ENTRYPOINT ["java", "-jar", "app.jar"]
